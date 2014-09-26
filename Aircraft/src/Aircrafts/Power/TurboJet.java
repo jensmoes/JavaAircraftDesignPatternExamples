@@ -1,6 +1,6 @@
 package Aircrafts.Power;
 
-public class TurboJet extends Powerplant {
+public class TurboJet extends JetEngine {
 
 	public TurboJet() {
 		// TODO Auto-generated constructor stub
