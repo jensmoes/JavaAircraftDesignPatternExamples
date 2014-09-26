@@ -1,0 +1,10 @@
+package Aircrafts;
+
+
+public class Aircraft {
+
+	private LandingGear mGear;
+	public void setGearComponent(LandingGear aGear) {
+		mGear = aGear;
+	}
+}

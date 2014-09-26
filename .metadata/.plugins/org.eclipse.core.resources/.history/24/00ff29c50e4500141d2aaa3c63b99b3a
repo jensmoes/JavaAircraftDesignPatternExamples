@@ -1,0 +1,24 @@
+import Aircrafts.Aircraft;
+import Aircrafts.AirplaneLandingGear;
+
+
+public class AdapterExample {
+
+	public AdapterExample() {
+		// TODO Auto-generated constructor stub
+	}
+	private static Aircraft mAircraft;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//Use existing decorator to create aircraft landing gear 
+		mAircraft = new Aircraft();
+		 //Concrete gear to be decorated
+		 AirplaneLandingGear gear = new AirplaneLandingGear(); 
+		 //Create an land airplane gear
+		 mAircraft.setGearComponent(new WheelDecorator(gear));
+	}
+
+}

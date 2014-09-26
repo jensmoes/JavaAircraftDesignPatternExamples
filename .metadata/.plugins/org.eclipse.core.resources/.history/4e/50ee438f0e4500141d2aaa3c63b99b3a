@@ -1,0 +1,19 @@
+package Aircrafts;
+
+
+public class Aircraft {
+
+	private LandingGear mGear;
+	private Empennage mTail;
+	
+	public void setGearComponent(LandingGear aGear) {
+		mGear = aGear;
+	}
+	public void cycleGear(){
+		if(mGear != null)
+		{
+			mGear.extend();
+			mGear.retract();			
+		}
+	}
+}

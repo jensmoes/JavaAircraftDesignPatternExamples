@@ -1,0 +1,21 @@
+package Aircrafts;
+
+public class AirplaneLandingGear extends LandingGear {
+
+	public AirplaneLandingGear() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void retract() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void extend() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

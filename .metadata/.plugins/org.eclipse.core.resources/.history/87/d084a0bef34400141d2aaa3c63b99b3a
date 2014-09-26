@@ -1,0 +1,9 @@
+package Aircrafts;
+
+public class TailPlaneEmpennage extends Empennage {
+
+	public TailPlaneEmpennage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

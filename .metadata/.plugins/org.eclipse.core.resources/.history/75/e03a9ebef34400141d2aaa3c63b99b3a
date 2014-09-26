@@ -1,0 +1,8 @@
+
+public class TailPlaneFactory extends AbstractEmpennageFactory {
+
+	public TailPlaneFactory() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

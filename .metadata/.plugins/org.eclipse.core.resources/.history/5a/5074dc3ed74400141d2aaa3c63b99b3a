@@ -1,0 +1,6 @@
+package Aircrafts;
+
+
+public abstract class Aircraft {
+
+}

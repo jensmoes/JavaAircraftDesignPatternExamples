@@ -1,0 +1,11 @@
+import Aircrafts.LandingGear;
+
+
+public class SkidDecorator extends LandingGearDecorator {
+
+	public SkidDecorator(LandingGear aGear) {
+		super(aGear);
+		// TODO Auto-generated constructor stub
+	}
+
+}

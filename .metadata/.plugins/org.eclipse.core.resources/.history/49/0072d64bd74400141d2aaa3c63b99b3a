@@ -1,0 +1,17 @@
+import Aircrafts.LandingGear;
+
+
+public class LandingGearDecorator extends LandingGear {
+
+	public LandingGearDecorator(LandingGear aGear) {
+		mComponent = aGear;
+	}
+
+	public void retract(){
+		mComponent.retract();
+	}
+	public void extend(){
+		mComponent.extend();
+	}
+	private LandingGear mComponent;
+}

@@ -1,0 +1,9 @@
+package Aircrafts;
+
+public class VerticalAxisControl {
+
+	public VerticalAxisControl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,28 @@
+import Aircrafts.LandingGear;
+
+
+public class ThrustReverserAdapter extends LandingGear {
+
+	public ThrustReverserAdapter() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void retract() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void extend() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void brake(boolean engage) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,32 @@
+import Aircrafts.Empennage;
+
+
+public class AbstractFactoryExampleClient {
+
+	public AbstractFactoryExampleClient() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static Empennage createEmpennage(AbstractEmpennageFactory factory)
+	{
+		Empennage mTail = factory.MakeEmpennage();
+
+		mTail.
+		
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AbstractEmpennageFactory factory = new VTailFactory();
+		//Build a vTail
+		Empennage vTail = createEmpennage(factory);
+		//Now you can attach it to the fuselage....
+		vTail.yaw(10);
+		vTail.pitch(3);
+		
+
+	}
+
+}

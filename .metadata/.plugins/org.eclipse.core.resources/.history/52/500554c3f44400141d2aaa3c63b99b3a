@@ -1,0 +1,10 @@
+package Aircrafts;
+
+public class Empennage {
+
+	public Empennage() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+}

@@ -1,0 +1,19 @@
+import Aircrafts.LandingGear;
+
+
+public abstract class LandingGearDecorator extends LandingGear {
+
+	public LandingGearDecorator(LandingGear aGear) {
+		mComponent = aGear;
+	}
+
+	public void retract(){
+		mComponent.retract();
+		System.out.println("Retracting gear");		
+	}
+	public void extend(){
+		mComponent.extend();
+		System.out.println("Extending gear");		
+	}
+	private LandingGear mComponent;
+}

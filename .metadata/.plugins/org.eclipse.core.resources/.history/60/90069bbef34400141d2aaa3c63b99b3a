@@ -1,0 +1,8 @@
+
+public abstract class AbstractEmpennageFactory {
+
+	public AbstractEmpennageFactory() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
