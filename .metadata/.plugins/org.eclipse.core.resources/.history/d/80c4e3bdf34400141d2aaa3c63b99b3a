@@ -1,8 +1,0 @@
-
-public class VTailFactory extends AbstractEmpennageFactory {
-
-	public VTailFactory() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

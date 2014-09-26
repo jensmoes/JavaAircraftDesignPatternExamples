@@ -1,6 +1,0 @@
-import Aircrafts.LandingGear;
-
-
-public abstract class LandingGearDecorator extends LandingGear {
-
-}

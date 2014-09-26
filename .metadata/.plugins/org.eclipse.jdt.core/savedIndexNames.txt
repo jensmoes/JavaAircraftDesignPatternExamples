@@ -1,6 +1,0 @@
-INDEX VERSION 1.126+/Users/jens/Documents/Code/JAVA/.metadata/.plugins/org.eclipse.jdt.core
-3246581304.index
-172729141.index
-885818314.index
-956695155.index
-242822413.index

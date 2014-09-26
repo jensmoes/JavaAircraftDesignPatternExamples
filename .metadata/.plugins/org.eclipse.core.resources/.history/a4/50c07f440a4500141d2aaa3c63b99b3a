@@ -1,9 +1,0 @@
-package Aircrafts;
-
-public class ThrustReverser {
-
-	public ThrustReverser() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

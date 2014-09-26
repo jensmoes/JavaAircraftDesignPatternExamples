@@ -1,9 +1,0 @@
-package Aircrafts;
-
-public abstract class Empennage {
-
-	public Empennage() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
